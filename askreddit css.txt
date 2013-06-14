@@ -1,0 +1,794 @@
+/* Commented and updated April 2013 - Metaranha */
+
+/* "My Subreddits" Text Settings
+--------------------------------*/
+#sr-header-area a {
+   color:black;
+   font-weight: bold;
+   font-size:111%;
+}
+#sr-header-area a:hover {
+   color:black;
+   font-weight:bold;
+}
+
+#sr-header-area .selected a {
+   color:white;
+   font-weight:bold;
+}
+
+/* "My Subreddits" Bar Settings 
+--------------------------------*/
+#sr-header-area {
+   color:black;
+   background-color:#66CDAA;
+   border-bottom: 1px solid #999;
+}
+
+/* Drop-Down Menu for "My Subreddits"
+-------------------------------*/
+#sr-header-area .drop-choices.srdrop {
+   margin-top: 0;
+   margin-left: 5px;
+   background-color:#FFFDD0;
+}
+.drop-choices.inuse {
+   display: block;
+}
+.drop-choices {
+   position: absolute;
+   white-space: nowrap;
+   border: 1px solid gray;
+   z-index: 100;
+   line-height: normal;
+}
+
+/* User Nav Customization
+--------------------------------*/
+#header-bottom-right {
+   padding-left:25px;
+   background-color: #FFFFF0;
+   opacity:.74;
+}
+
+/* "Edit" Button in Upper Right Corner
+--------------------------------*/
+#sr-more-link {
+   background-color:#FF6600;
+   opacity:.45;
+}
+#sr-more-link:hover {
+   opacity:.79;
+}
+
+/* Shadowing Under Reddit Navigation Banner
+--------------------------------*/
+#header {
+   -moz-box-shadow: 0px 0px 10px #C6C78C;
+   -webkit-box-shadow: 0px 0px 10px #888;
+   box-shadow: 0px 0px 10px #888;
+   margin:0px;
+   padding:0;
+   border-bottom:none;
+   width:100%;
+   z-index:100;
+}
+
+/* Body Of Sub Settings 
+--------------------------------*/
+body {
+   background-color: #FFFFF0;
+}
+.content {
+   margin:10px 30px 0px 10px;
+   border-left:1px solid #999;
+   border-right:7px solid #999;
+   padding: 0px 5px 10px 5px;
+   border-bottom:1px solid #999;
+   border-radius:4px;
+   border-top:1px solid #999;
+   background-color:#FDFDFF;
+}
+#siteTable {
+   margin-top:20px;
+}
+
+/* Sidebar Settings
+--------------------------------*/
+.linklisting .link { 
+   margin-right: 310px; 
+}
+
+.side {
+   margin-right:10px;
+   border-right:1px solid #999;
+   padding-right:5px;
+   padding-left:5px;
+   border-left:1px solid #999;
+   border-bottom:1px solid #999;
+   border-radius-bottomleft:9px;
+   border-radius-bottomright:9px;
+   -moz-border-bottom-left-radius:9px;
+   -webkit-border-bottom-left-radius:9px;
+   background-color:#dcecfc;
+}
+
+/* Search Bar Customization
+--------------------------------*/
+#search input[type="text"] {
+   background-color:#FFFFF0;
+   border-top-left-radius:10px;
+   border-bottom-left-radius:10px;
+   border-top-right-radius:10px;
+   border-bottom-right-radius:10px;
+   text-align:center;
+}
+
+/* Sidebar Elements
+--------------------------------*/
+.titlebox form.toggle {
+   background-color:#dcecfc;
+}
+.titlebox h1 a {
+   color: #369;
+}
+.titlebox h1 a:before {
+   content:'/r/';
+}
+.titlebox h1 {
+   background-color:#dcecfc;
+   width:303px;
+   padding:5px;
+   margin-left:0px;
+   padding-left:5px;
+   text-align:center;
+   border-right:1px solid #999;
+   padding-right:2px;
+   position:relative;
+   left:-5px;
+}
+.titlebox .usertext .md {
+   margin: 0;
+   padding: 0;
+   overflow: visible;
+}
+
+/* Changes color of "You are a moderator.." Element
+--------------------------------*/
+.leavemoderator {
+   background-color:#dcecfc;
+}
+
+/* Color Control For Background Of Mod and Recently Viewed Links Elements
+--------------------------------*/
+div.sidecontentbox .content {
+background: #FFFFF0;
+}
+
+/* Custom Tab Menu For "hot" "new" "rising" Etc. 
+--------------------------------*/
+
+/* Fixes tab menu positioning
+--------------------------------*/
+html {
+   position:relative;
+}
+
+.tabmenu { 
+   position:absolute; 
+   left:10px; 
+   top:65px; 
+   font-size:10pt; 
+   height:30px; 
+   overflow:hidden; 
+   right:320px;
+}
+#header .tabmenu li {
+   float:left;
+   margin-left:-6px;
+   margin-bottom:10px;
+}
+#header .tabmenu li a {
+   display: inline-block;
+   font-weight: 500;
+   border:1px solid #999;
+   padding:5px 7px 5px 5px;
+   margin-right: 2px;
+}
+.tabmenu li:first-child a {
+   border-top-left-radius:3px;
+   border-bottom-left-radius:3px;
+   margin-left:6px;
+}
+.tabmenu li:last-child a {
+   border-top-right-radius:3px;
+   border-bottom-right-radius:3px;
+}
+#header .tabmenu li:not(.selected) a:hover {
+   background-color:#E1EDCF;
+   color:black;
+}
+
+/* Submit Button Settings
+--------------------------------*/
+.morelink {
+   border-radius:30px;
+   border:2px solid #FF9900;
+}
+.morelink a {
+   color: #666666;
+}
+.morelink a:hover {
+   color: #FAF0E6;
+}
+.morelink a[href$="submit"]:after{
+   content:"/question";
+}
+.nub {
+   display:none;
+}
+.sidebox .spacer {
+   background-color:#DCECFC;
+}
+
+/* Modbox
+--------------------------------*/
+.sidecontentbox .content {
+   background-color:white;
+   border-radius:5px;
+   border:1px solid #999;
+   padding:10px;
+}
+
+/* "Join IRC" element
+--------------------------------*/
+.titlebox h6 {
+   color:white;
+   width:305px;
+   padding:2px;
+   margin:5px 0px 5px 0px;
+   padding-left:3px;
+   position:relative;
+   left:-5px;
+   text-align:center;
+}
+
+/* Announcement section above rules
+--------------------------------*/
+.titlebox hr {
+   margin-left:-5px;
+   border: none;
+   height: 1px;
+   background-color: #FFFAFA;
+}
+
+/* "Rule Box" Text Settings
+--------------------------------*/
+.titlebox ul {
+   list-style-type:circle;
+}
+.titlebox blockquote {
+   border:1px solid #999;
+   border-radius:5px;
+   background-color:white;
+   margin:0px;
+}
+.titlebox blockquote ul li {
+   list-style-type:none;
+   margin:0px;
+   padding:3px;
+}
+.titlebox blockquote ul li:nth-child(even) {
+   background-color:#4373a1;
+}
+.titlebox blockquote ul li:nth-child(odd) {
+   background-color:#5484b2;
+}
+.titlebox blockquote ul li a {
+   color:white!important;
+}
+.titlebox blockquote ul li a:hover {
+   text-decoration:underline;
+}
+.titlebox .usertext-body .md h5 a:hover {
+   background:#fff7fa;
+}
+.titlebox form {
+   position:static;
+}
+.titlebox .usertext-body .md h5 {
+   position: absolute;
+   top: 25px;
+   left: 220px;
+   margin: 0px;
+   margin-top: 4px;
+   padding: 5px;
+   display: inline-block;
+   list-style-type: none;
+   z-index:9999;
+}
+.titlebox .usertext-body .md h5 a {
+   background-color:white;
+   font-family: verdana, sans-serif;
+   font-weight: 900;
+   font-size: 12px;
+   color: #F73;
+   text-align: left;
+   padding:5px;
+   margin: 0px;
+   text-decoration: none;
+   border-radius:5px;
+   border:1px solid #999;
+}
+
+/* Slightly more padding inside expandos / self text
+--------------------------------*/
+.link .usertext .md {
+border: 5px 10px solid red; 
+border-radius: 9px !important;
+}
+
+/* Replaces "readers" with something else
+--------------------------------*/
+div.titlebox .subscribers span.word {
+   display:none; 
+}
+div.titlebox .subscribers span.number:after {
+   content:" Inquisitors."; 
+}
+
+/* Link Flair (MAJOR thank you to /u/NapoleonBonerParts for his design and implementation help)
+--------------------------------------*/
+.link {
+   position:relative;
+   padding:6px 0 6px 13px;
+}
+.linkflairlabel {
+   display:none;
+}
+.linkflair-mod-post div.entry p .linkflairlabel,
+.linkflair-megathread div.entry p .linkflairlabel,
+.linkflair-trash-talk div.entry p .linkflairlabel,
+.linkflair-breaking-news div.entry p .linkflairlabel {
+   position: absolute;
+   left: 0;
+   top: 0;
+   display: block;
+   height: 100%;
+   border: none !important;
+   width: 0px;
+   padding:0 !important;
+   text-indent: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+}
+
+/* "Other subreddits you might like" Table Settings
+--------------------------------*/
+.side hr {
+   clear: both;
+}
+.side .md {
+   overflow: visible;
+}
+/* Body Of "Other Subreddits" Table
+--------------------------------*/
+.side .md blockquote {
+   padding-left: 0px;
+   margin: 0px;
+   margin-right: 0px;
+   background:#FFFDD0; 
+}
+.side .md blockquote p {
+   margin: 0px;
+}
+.side .md blockquote {
+    position: relative;
+}
+.side .md blockquote table {
+    width: 280px;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+.side .md blockquote hr, .side .md blockquote th {
+    display: none;
+}
+.side .md blockquote tr:nth-child(odd) td:nth-child(odd) {
+    background: #EFF7FF;
+}
+.side .md blockquote tr:nth-child(even) td:nth-child(even) {
+    background: #EFF7FF;
+}
+/* hide blockquote */
+.side .md blockquote blockquote blockquote {
+    margin-left: -999em;
+    position: absolute;
+}
+/* Adds A Timestamp To Edited Comments 
+--------------------------------*/
+.edited-timestamp[title]:after {
+    content: " (" attr(title) ")";
+    font-size: 90%;
+}
+/* Changes Deleted Comment Text To Redacted Bar
+--------------------------------*/
+.grayed .md p { display: none; }
+
+.usertext.grayed .usertext-body:after {
+    content: url(%%redacted1-vectorized%%);
+}
+
+.grayed[id$='0'] .md:after, .grayed[id$='1'] .md:after, .grayed[id$='2'] .md:after, .grayed[id$='3'] .md:after {
+    content: url(%%redacted1-vectorized%%);
+}
+.grayed[id$='A'] .md:after, .grayed[id$='K'] .md:after, .grayed[id$='9'] .md:after, .grayed[id$='7'] .md:after {
+    content: url(%%6%%);
+}
+.grayed[id$='B'] .md:after, .grayed[id$='D'] .md:after, .grayed[id$='3'] .md:after, .grayed[id$='5'] .md:after {
+    content: url(%%redacted3-vectorized%%);
+}
+.grayed[id$='M'] .md:after, .grayed[id$='N'] .md:after, .grayed[id$='6'] .md:after, .grayed[id$='8'] .md:after {
+    content: url(%%redacted4-vectorized%%);
+}
+.grayed[id$='F'] .md:after, .grayed[id$='8'] .md:after, .grayed[id$='Q'] .md:after, .grayed[id$='S'] .md:after {
+    content: url(%%redacted5-vectorized%%);
+}
+.grayed[id$='H'] .md:after, .grayed[id$='I'] .md:after, .grayed[id$='R'] .md:after, .grayed[id$='J'] .md:after {
+    content: url(%%redacted8-vectorized%%);
+}
+.grayed[id$='4'] .md:after, .grayed[id$='C'] .md:after, .grayed[id$='P'] .md:after, .grayed[id$='U'] .md:after {
+    content: url(%%redacted9-vectorized%%);
+}
+/* Changes Deleted Username To Redacted Bar 
+--------------------------------*/
+p.tagline em {
+    visibility:hidden; 
+    font-size:0;
+}
+p.tagline em:after {
+    visibility:visible; 
+    font-size: 10px; 
+    content: url(%%redactedname1%%);
+}
+
+/* Show hidden blockquote
+--------------------------------*/
+.side .md blockquote blockquote:hover blockquote, .side .md blockquote blockquote blockquote:hover {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    background: white;
+    position: absolute;
+    right: 145px;
+    top: 15px;
+    z-index: 99;
+    margin-left: 0;
+    width: 300px;
+}
+.side .md blockquote blockquote p {
+    cursor: default;
+}
+.side .md blockquote hr {
+    display: none;
+}
+.side .md blockquote p {
+    text-align: center;
+    border: 3px #AAA;
+    border-radius: 2px;
+    padding: 5px 0px;
+    display: block;
+    font-weight: bold;
+    background: #EEEEEE;
+}
+/* Background of "Other Subreddits" Header
+--------------------------------*/
+.side .md blockquote blockquote:last-child > p {
+    background: #66CDAA;
+}
+.side .md blockquote blockquote blockquote p {
+    text-align: center;
+    border: 0px solid #AAA;
+    border-bottom: 1px dashed #AAA;
+    border-radius: 0px;
+    padding: 5px 0px;
+    background: #FFFFFF !important;
+}
+.side .md blockquote td {
+   border: 0px solid;
+   font-weight: bold;
+   padding: 0px;
+}
+.side .md blockquote td:hover {
+   background: #CEE3F8 !important;
+}
+.side .md blockquote blockquote blockquote a {
+   text-align: left;
+   padding: 3px 0px 3px 3px;
+   border: 0px solid;
+   border-radius: 0px;
+   display: block;
+}
+
+.linkflair-mod-post div.entry p .linkflairlabel:hover,
+.linkflair-megathread div.entry p .linkflairlabel:hover,
+.linkflair-trash-talk div.entry p .linkflairlabel:hover,
+.linkflair-breaking-news div.entry p .linkflairlabel:hover {
+   color:#fff;
+   font-weight: normal;
+   line-height: 60px;
+   text-indent: 20px;
+   font-size: 18px;
+   letter-spacing: 1px;
+   width:225px !important;
+   max-width:225px !important;
+   padding: 0 !important;
+}
+.linkflair-mod-post div.entry p .linkflairlabel {
+   border-left:#EB5933 solid 5px !important;
+   background: url(%%HeGA2lyqWQA0hi3P%%) 0 0 no-repeat;
+   text-shadow:-1px 2px #C34A2B;
+}
+.linkflair-megathread div.entry p .linkflairlabel {
+   border-left:#5DA4C8 solid 5px !important;
+   background: url(%%HeGA2lyqWQA0hi3P%%) -225px 0 no-repeat;
+   text-shadow:-1px 2px #3B80A4;
+}
+.linkflair-trash-talk div.entry p .linkflairlabel {
+   border-left:#8DC44E solid 5px !important;
+   background: url(%%HeGA2lyqWQA0hi3P%%) -450px 0 no-repeat;
+   text-shadow:-1px 2px #75A442;
+}
+.linkflair-breaking-news div.entry p .linkflairlabel {
+   border-left:#E9CF5C solid 5px !important;
+   background: url(%%HeGA2lyqWQA0hi3P%%) -900px 0 no-repeat;
+   text-shadow:-1px 2px #C0AC4D;
+}
+.linkflair-generic div.entry p .linkflairlabel {
+   display: none;
+}
+.linkflair-generic div.entry p a.title {
+   font-weight: bold;
+}
+
+/* Link Flair Selector
+--------------------------------------*/
+div.flairoptionpane div span.linkflairlabel {
+   display: block;
+   border: none !important;
+   color: #fff;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   padding: 5px;
+}
+div.flairoptionpane div a.title {
+   display: none;
+}
+div.flairoptionpane div.linkflair-mod-post span.linkflairlabel {
+   display: block;
+   background: #EB5933;
+}
+div.flairoptionpane div.linkflair-megathread span.linkflairlabel {
+   display: block;
+   background: #3B80A4;
+}
+
+/* Extra Link Flair Flags
+--------------------------------------
+div.flairoptionpane div.linkflair-trash-talk span.linkflairlabel {
+   display: block;
+   background: #75A442;
+}
+div.flairoptionpane div.linkflair-breaking-news span.linkflairlabel {
+   display: block;
+   background: #E9CF5C;
+}
+div.flairoptionpane div.linkflair-generic span.linkflairlabel {
+   display: block;
+   color: #333;
+   background: #fff;
+}
+
+ <- Link flair code ends here
+--------------------------------------*/
+#siteTable_promoted {
+   margin-top:25px;
+}
+.menuarea {
+   margin-top:20px !important;
+}
+
+/* Encourages Better Questions
+--------------------------------------*/
+.submit #title-field .title, .submit #url-field .title, .submit #text-field .title {
+   display: block;
+}
+.submit #title-field .title:after {
+   content: "Your choice of title is important! It should be phrased as an open-ended & thought provoking question. Please do not post poll-type, survey, or yes/no questions. ''Does anybody else'' questions, and posts like ''highest vote wins'' or of similar nature are also not permitted.";
+   display:block;
+   font-size: 10pt;
+}
+.submit #text-field .roundfield-content:before {
+  content: "Do not answer your own question in this box. Use this box to amplify or give more specifics about your question. Your own answer to the question should be made as a comment to the post.";
+   display:block;
+   font-size: 10pt;
+}
+
+/* User flair Template
+--------------------------------------*/
+.flair {
+   background:none;
+   border:none;
+   color:#FF0000;
+}
+
+/* Spoiler Tagging
+--------------------------------------*/
+a[href="#s"] {
+    display: inline-block;
+    background: lightgrey !important;
+    color: black !important;
+    cursor: text;
+}
+a[href="#s"]::after {
+    content: attr(title);
+    background: black !important;
+    color: black !important;
+    visibility: visible;
+    border-radius: 3px;
+    padding: 0 3px;
+    margin-left: 5px;
+}
+a[href="#s"]:hover::after, a[href="#s"]:active::after {
+    color: white !important;
+}
+
+/* Announcement Sticky
+--------------------------------------*/
+div.content {
+/*This lowers the links to create space, IT NEEDS TO BE EDITED TO ADD AN ANNOUNCEMENT! Recommend 90px*/
+   margin-top: 40px;
+}
+.titlebox form {
+/*Hack to enable repositioning of child elements*/
+   position: static;
+}
+.side h3:nth-of-type(1) {
+/*this code positions the sticky*/
+   position:absolute;
+   display: block;
+   top: 95px;
+   left: -30px;
+/*this code styles the sticky*/
+   color: red;
+   text-align: left;
+   margin: 15px;
+   border-radius: 8px;
+   border-color: red;
+   width: 100%;
+   padding: 7px 0px 7px 40px;
+}
+.side h3:nth-of-type(1) a { 
+   color: green; 
+}
+.sidebox.submit .spacer { 
+   display:none; 
+}
+
+
+/* Fixes for CSS Edit Page
+--------------------------------------*/
+div.stylesheet-customize-container div.sheets {
+    margin-right: 325px;
+}
+
+/* Fix for RES annoyance with adding subreddits
+--------------------------------------*/
+#RESShortcutsEditContainer, #RESShortcutsAdd, #RESShortcutsLeft, #RESShortcutsRight, #RESShortcutsSort {
+    background:#66CDAA !important;
+    color:black !important;
+}
+
+/* Large remove buttons v1.01 by /u/roger_: Go re.reddit.com to get this to work
+--------------------------------------*/
+html:lang(re) .moderator.listing-page .linklisting  .thing.link { padding-left: 85px }
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) {
+    position: absolute !important;
+    left: 0px;
+    width: 20px;
+    height: 100px;
+}
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button {
+    position: relative !important;
+    top: -18px;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+}
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button span.option.error.active { font-size: 0 }
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button span.option.error.active .no { display: none }
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button span.option.error.active a.yes {
+    /*content: "sure?";*/
+    font-size: 10pt;
+    background-color: #FFDBDB;
+    border-color: red !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button {
+    font-weight: bold;
+    color: #D6D6D6;
+    text-align: center;
+}
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button a {
+    padding: 50%;
+    background-color: #F0F0F0;
+    color: gray !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 120%;
+    font-weight: bold;
+    border: 1px solid gray !important;
+    text-decoration: none;
+}
+html:lang(re) .moderator.listing-page ul.flat-list.buttons li:nth-child(6) form.toggle.remove-button a:hover {
+    background-color: #FFDBDB;
+    border-color: red !important;
+}
+
+/* Botty Type Stuff 
+--------------------------------------
+
+    Mod tools reason leaver
+    ===================
+
+    Valid Tokens:
+    =============
+    {subreddit} - The subreddit the post/comment was posted to.
+    {author} - The author of the link/comment
+    {kind} - The type of post, either 'submission' or 'comment'
+    {mod} - The name of the mod removing the post (you)
+    {title} - The title of the submission
+    {url} - url to the removed post
+
+    * These tokens will be replaced with the relavent info when the message is sent.
+    * When the reason is sent via PM, a link to the removed post is added to the bottom of the message.
+
+<removereasons>
+
+    <pmsubject>
+        Your {kind} {title} was removed from {subreddit}.
+    </pmsubject>
+
+    <reason>Hey {author}, your post has been removed from public listings because it violates [[Rule 1]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_1). You should have only your question in the title. Feel free to rephrase and resubmit it. Thanks.<input id="newrule-extra" value="" /></reason>
+    <reason>Hey, {author}, your post has been removed because it violates [[Rule 1]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_1). Your answer goes in the comments, not the text box.  Reply to this message when you've edited it and we'll put it back up. Thanks</reason>
+    <reason>Hey {author}, your post has been removed from public listings because it breaks [[Rule 2]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_2). Your post is something that could be found with a search engine, or otherwise doesn't allow for much diversity of discussion.You may find your post is be better suited in /r/self or /r/misc, or /r/answers. <input id="rule1-extra" value="" /></reason>
+    <reason>Hey {author}, your post has been removed from public listings because it breaks [[Rule 3]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_3). Please don't post [surveys](/r/samplesize), [poll-type](/r/pollquestions), '[Does anybody else](/r/doesanybodyelse)' or yes/no answer questions. <input id="rule3-extra" value=""></reason>
+    <reason>Hey, {author}, your {kind} has been removed from public listings because it Askreddit's [[Rule 4]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_4) or breaks reddit's rules on personal information</reason>
+    <reason>Hey {author}, your post has been removed from public listings because of [[Rule 5]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_5). Askreddit is not for advertising, publicity, promotion, or defamation of a person, idea, or project. <input id="rule5-extra" value=""></reason>    
+    <reason>Hey {author}, your post has been removed per [[Rule 6]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_6), seeking legal, mental health, or medical advice/consultation. <input id="input" value=""></reason>
+    <reason>Hey, {author}, your post has been removed from public listings because it violates [[Rule 7]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_7). Askreddit is not for soliciting [homework help](/r/homeworkhelp), [favors](/r/favors), monetary donations, goods or services, or other forms of [charity](/r/charity) or assistance.</reason>
+    <reason>Hey {author}, your {kind} was removed because of [[Rule 8]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_8). Posts or comments with offensive text or NSFW images are subject to removal. <input id="rule8-extra" value=""></reason>
+    <reason>Hello {author}. I'm sorry to hear that you're in such a dark place. AskReddit can't help you and I've removed your thread. There's /r/suicidewatch on reddit which is filled with well-meaning people who will try and help, but aren't trained. The [befrienders](http://www.befrienders.org/) website is a global list of local suicide help charities. Please use it to find an organisation in your country, you should be able to call or email them for free and they'll speak to you and try and help you without being judgemental.</reason>
+    <reason><textarea id="suicide-extra" placeholder="Custom removal reason"></textarea></reason>
+
+</removereasons>
+
+<removereasons2>
+ 
+   <header>Hi {author}, your {kind} has been removed for the following reason(s):</header>
+   <footer>*If you feel this was done in error, or would like further clarification, please don't hesitate to [message the mods](http://www.reddit.com/message/compose?to=%2Fr%2FAskReddit)*</footer>
+
+    <reason>* It has an improper title. This is a violation of [[Rule 1]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_1).<input id="newrule-extra" value="" /></reason>
+    <reason>* It has your answer in the text box rather than the comments section ([[Rule 1]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_1)). Reply to this message when you've edited it and we'll put it back up.</reason>
+    <reason>* It violates [[Rule 2]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_2), is a rhetorical or loaded question,  is something that could be googled or researched elsewhere, or otherwise offers limited opportunity for discussion.  You might try /r/self, /r/answers, /r/misc, or use /r/findareddit to help you locate a more appropriate alternative. <input id="rule1-extra" value="" /></reason>
+    <reason>* It violates [[Rule 3]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_3), is a yes/no, either/or, [Does Anybody Else](/r/doesanybodyelse), [Would-You-Rather](/r/wouldyourather), [poll-type](/r/pollquestions), or [survey](/r/samplesize). <input id="rule3-extra" value=""></reason>
+        <reason>* It violates [[Rule 5]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_5), Appears to be soap-boxing, or otherwise trying to advertise, promote, publicize, shame or defame a person, company, or cause. <input id="rule5-extra" value=""></reason>    
+    <reason>* It violates [[Rule 6]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_6), seeking medical, mental health, or legal consult. <input id="input" value=""></reason>
+    <reason>* It violates [[Rule 7]](http://www.reddit.com/r/AskReddit/wiki/index#wiki_rule_7), soliciting [homework help](/r/homeworkhelp), [favors](/r/favors), [charitable donations](/r/charity), or other goods and services or [assistance](/r/assistance).</reason>
+        <reason>Hello {author}. I'm sorry to hear that you're in such a dark place. AskReddit can't help you and I've removed your {kind}. There's /r/suicidewatch on reddit which is filled with well-meaning people and sympathetic people who can try and help, but beware they aren't trained. The [befrienders](http://www.befrienders.org/) website is a global list of local suicide help charities. Please use it to find an organisation in your country, you should be able to call or email them for free and they'll speak to you and try and help you without being judgemental.</reason>
+    <reason><textarea id="suicide-extra" placeholder="Custom removal reason"></textarea></reason>
+ 
+</removereasons2>
